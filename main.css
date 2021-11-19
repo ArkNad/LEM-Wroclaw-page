@@ -1,0 +1,173 @@
+body
+{
+	width: 100%;
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1.logo{
+	font-size: 44px;
+	font-weight: 700; //grubość czcionki
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase; //zamien litery na duze 
+	letter-spacing: 5px; //rozstrzal napisu
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+#topnav{
+	background-color: #1c74b2;
+	text-align: center;
+	width: 100%;
+}
+
+.menu{
+	list-style-type:none;	/*usuniecie kropek z listy nienumerowanej*/
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;	/*minimalna wysokosc*/
+	line-height: 200%;	/*wyrównanie w pionie*/
+	
+}
+
+.menu > li {
+	
+	display: inline-block; /*wypoziomowanie listy*/
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;	/*poziome przegrodki*/ 
+	
+}
+
+.menu > li:first-child{
+	border-left: 1px dashed #0a2b42;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none; /*usuwamy podkreslenie linka*/
+	
+	
+}/*jak odwolujemy sie do linkow danej klasy to nie dajemy znaku > !!!*/
+
+.menu a:hover{
+	color: #0a2b42;
+	text-decoration: none; /*usuwamy podkreslenie linka*/
+		
+}
+
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+}
+
+.west{
+	float:left;
+	padding: 10px;
+	width: 1000px;
+	text-align: center;
+}
+
+.east{
+	float:left;
+	padding: 10px;
+	width: 160px;
+}
+
+h1{
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+.post{
+	background-color: #222930;
+	padding-top:10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg{
+	display:inline-block;
+	margin-left: 30px;
+	width: 300px;
+}
+
+.entryimg img{
+	width: 300px;
+	height: 170px;
+}
+
+.entrytext{
+	display:inline-block;
+	width: 550px;
+	font-size: 15px;
+}
+
+h2{
+	font-size:20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+.contact{
+	margin-left:auto;
+	margin-right:auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom:50px;
+}
+
+.contact p{
+	margin-bottom: 50px;
+}
+
+.bluebutton{
+	background-color: #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.bluebutton:hover{
+	background-color: #196499;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #222930;
+	text-align: center;
+	padding: 20px;
+}
+
+.east ul{
+	padding-left: 20px;
+}
+
+.east ul > li{
+	margin-bottom: 5px;
+}
+
+.pudelko{
+	text-align:justify;
+}
+
+a.pudelko{
+	color: #ffffff;
+	text-decoration: none;
+}
